@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid;
+  padding-bottom: 12px;
+}
+
+.logo {
+  background-color: #843fa2;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 18px 3px 18px 3px;
+  color: white;
+}
+
+.searchSection {
+  display: flex;
+}
+
+.searchSection input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid grey;
+  border-radius: 10px 3px;
+}
+
+
+.searchSection button {
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 75px;
+  cursor: pointer;
+}
+
+.searchSection button:hover {
+  background-color: rgb(116, 116, 186);
+  color: white;
+}

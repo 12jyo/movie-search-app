@@ -1,0 +1,25 @@
+.movie-card-section{
+  display: flex;
+}
+
+.movie-card {
+  cursor: pointer;
+  border: 1px solid #a47f7f;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.movie-card img {
+  max-width: 100%;
+  height: 300px;
+}
+
+.movie-info {
+  padding-top: 10px;
+  font-size: 14px;
+}
